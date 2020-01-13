@@ -183,7 +183,7 @@ const Why = ({ offset }: { offset: number }) => (
                 top="70%"
             />
         </Divider>
-        <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset}>
+        <Content speed={0.4} offset={offset}>
             <Inner>
                 <WhyMDX />
             </Inner>
