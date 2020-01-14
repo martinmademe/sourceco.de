@@ -9,12 +9,12 @@ import Contact from '../components/contact';
 
 const Cara = () => (
     <Layout>
-        <Parallax pages={6}>
+        <Parallax pages={7}>
             <Hero offset={0} />
             <What offset={1} />
             <Why offset={3} />
-            <How offset={4} />
-            <Contact offset={5} />
+            <How offset={5} />
+            <Contact offset={6} />
         </Parallax>
     </Layout>
 );

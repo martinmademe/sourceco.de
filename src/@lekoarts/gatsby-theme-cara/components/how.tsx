@@ -13,7 +13,7 @@ const How = ({ offset }: { offset: number }) => (
         <Divider
             bg="divider"
             clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)"
-            speed={0.2}
+            speed={0.5}
             offset={offset}
         />
         <Divider speed={0.1} offset={offset}>
